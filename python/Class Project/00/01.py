@@ -16,7 +16,6 @@ Print the total sum with an appropriate message.
 The provided solution demonstrates a working implementation of this problem, where the main() function guides the user through the process of entering two numbers and displays their sum.
 """
 
-
 def main():
     print("This program adds two numbers.")
     num1 : str = input("Enter first number: ")
@@ -26,8 +25,5 @@ def main():
     total : int = num1 + num2
     print("The total is " + str(total) + ".")
 
-
-# This provided line is required at the end of
-# Python file to call the main() function.
 if __name__ == '__main__':
     main()

@@ -8,13 +8,10 @@ What's your favorite animal? cow
 My favorite animal is also cow!
 """
 
-
 def main():
     print("What is your favourite Animal ?")
     str1 : str = input("Enter your favourite Animal: ")
     print("My favorite animal is also " + str1 + "!")
-
-
 
 if __name__ == '__main__':
     main()
